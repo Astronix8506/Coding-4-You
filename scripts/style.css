@@ -2,10 +2,69 @@ body{
     background-color: rgb(93, 93, 206);
 }
 .flex-container{
-    display: block;
+    max-width: 2000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #d5d5d5;
+    flex-direction: column;
 }
 .flex-item{
-    border: 5px solid rgb(72, 72, 224);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 50px;
     padding: 23%, 5%;
 }
+
+.navbar{
+    margin: 0 auto;
+    width: 80%;
+    float: right;
+    background-color: #d5d5d5;
+}
+
+header a{
+    color: black;
+    }
+
+header{
+    background-color: #8a93f8;
+    height: 60px;
+    display: flex;
+    margin: -10px -10px 0px -10px;
+    }
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+    }
+
+nav ul{
+    margin: 0 auto;
+    padding-bottom: 2px;
+    list-style: none;
+    }
+    
+nav li{
+    display: inline-block;
+    padding-top: 10px;
+    flex-direction: row;
+    margin-top: 10px;
+    position: relative;
+    }
+
+#Tab a:hover{
+    background-color: #ffffff;
+    border-radius: 80% 80% 0% 0%;
+}
+
+#Tab a{
+    width: 100%;
+    padding: 15px 55px 22px 55px;
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+}
+
