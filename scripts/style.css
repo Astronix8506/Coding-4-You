@@ -2,24 +2,19 @@ body{
     background-color: rgb(93, 93, 206);
 }
 .flex-container{
-    max-width: 2000px;
-    height: auto;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border: 2px solid #d5d5d5;
-    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 .flex-item{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-<<<<<<< HEAD
-    padding: 23%,;
+    border: 5px solid black;
+    margin: center;
+    padding: 250px  650px 635px 0;
+    border-radius: 5%;
+    
 }
-=======
-    padding: 23%, 5%;
+.flex-text{
+    
 }
 
 .navbar{
@@ -71,5 +66,3 @@ nav li{
     text-decoration: none;
     transition: all ease-in-out 500ms;
 }
-
->>>>>>> 9f567dea48fd127c29358f3f4133fc3a5aebff26
