@@ -1,21 +1,6 @@
 body{
     background-color: rgb(93, 93, 206);
 }
-.flex-container{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.flex-item{
-    border: 5px solid black;
-    margin: center;
-    padding: 250px  650px 635px 0;
-    border-radius: 5%;
-    
-}
-.flex-text{
-    
-}
 
 .navbar{
     margin: 0 auto;
