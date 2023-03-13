@@ -1,22 +1,29 @@
 body{
     background-color: rgb(69, 69, 185);
 }
-.flex-container{
+
+/*
+Please don't modify this element
+*/
+.main-flex-container{
+    display: flex;
     max-width: 2000px;
     height: auto;
+    margin-top: 20%;
     margin: 0 auto;
-    background-color: #ffffff;
-    border: 2px solid #d5d5d5;
     flex-direction: column;
 }
 
-.flex-item{
+
+/*
+Please don't modify this element
+*/
+#main-flex-item{
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
-    padding: 23%, 5%;
+    margin: auto;
 }
 
 .navbar{
@@ -67,4 +74,40 @@ nav li{
     padding: 15px 55px 22px 55px;
     text-decoration: none;
     transition: all ease-in-out 500ms;
+}
+
+/*
+The Id Contnent_header will set whatever the Id associated with
+into a rectangle with curved edges.
+Sould be places before main content
+*/
+.content-header{
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-color: white;
+    float: left;
+    Width: 35%;
+    height: 8%;
+    left: 20%;
+} 
+
+.body-content{
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: 20%;
+    background-color: #c3bfff;
+    margin-top: 40px;
+}
+
+.content-spacing{
+    margin-top: 50px;
+}
+
+/*
+This class is used to help test box alignment and size
+*/
+.test-box{
+    background-color: red;
 }
