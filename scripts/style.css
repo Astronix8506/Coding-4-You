@@ -104,6 +104,12 @@ Sould be places before main content
 .content-spacing{
     margin-top: 50px;
 }
+.content-square{
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: 5px solid black;
+}
 
 /*
 This class is used to help test box alignment and size
