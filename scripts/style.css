@@ -4,34 +4,10 @@ body{
 .flex-container{
     max-width: 2000px;
     height: auto;
-    margin-right: 53%;
-    background-color: #3b2fe4;
-    border: 5px solid #000000;
-    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #d5d5d5;
     flex-direction: column;
-    padding-bottom: 0 auto;
-}
-.flex-container2{
-    border-left: 6px solid rgb(0, 0, 0);
-    height: 893px;
-    position: absolute;
-    left: 52%;
-    margin-left: -3px;
-    top: 59;
-    flex-basis: 0;
-    flex-basis: 33.33%;
-    max-width: 33.33%;
-}
-.flex-container3{
-    display: block;
-    margin-left: 150px;
-    margin-right: -150px;
-    margin-top: 50px;
-    background-color: #3b2fe4;
-    border: 4px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    flex-direction: column;
-    flex-basis: 0;
 }
 
 .flex-item{
@@ -39,30 +15,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
-    padding-bottom: 85%;
-    
-    border: 5px solid black;
-    border-radius: 8%;
-}
-.flex-item2{
-    border: 5px solid black;
-    border-radius: 10px;
-    padding: 70px 120px 70px 200px;
-    margin: 45px 10px 5px 320px;
-    background-color: #3b2fe4;
-    max-width: 2000px;
-}
-.flex-item3{
-    border: 5px solid black;
-    padding: 260px 33px 260px 33px;
-    margin: 10px;
-    
-}
-.flex-text{
-    align-items: center;
-    position: absolute;
-    
+    margin: 50px;
+    padding: 23%, 5%;
 }
 
 .navbar{
