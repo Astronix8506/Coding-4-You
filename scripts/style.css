@@ -17,11 +17,13 @@ Please don't modify this element
 .flex-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .flex-container2{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -37,22 +39,19 @@ Please don't modify this element
 }
 
 .flex-item{
-    padding: 50px;
+    padding: 15px;
     border: 5px solid #adecbf;
     border-radius: 15px; 
-    margin: 200px 0 0;
-
-    
+    margin: 85px 0 0;
+    color: white;
 }
 
 .flex-item2{
-    margin-left: 56%;
-    margin-top: -630px;
-    padding-top: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: 5px solid black;
+    padding: 15px;
+    border: 5px solid #adecbf;
     border-radius: 15px;
+    color: white;
+    margin-top: 50px;
 }
 
 .navbar{
