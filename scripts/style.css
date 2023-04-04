@@ -42,18 +42,16 @@ Please don't modify this element
     padding: 15px;
     border: 5px solid #adecbf;
     border-radius: 15px; 
-    margin: 95px 0 100px;
+    margin: 77px 0 100px;
     color: white;
-    width: 800px;
-    height: 350px;
+    width: 815px;
 }
 
 .flex-item2{
-    padding: 15px;
+    padding: 25px;
     border: 5px solid #adecbf;
     border-radius: 15px;
     color: white;
-    margin-top: 50px;
 }
 
 .navbar{
@@ -115,7 +113,7 @@ Sould be places before main content
     position: absolute;
     border: 5px solid black;
     border-radius: 30px;
-    background-color: white;
+    background-color: rgb(217, 255, 234);
     float: left;
     Width: 35%;
     height: 8%;
