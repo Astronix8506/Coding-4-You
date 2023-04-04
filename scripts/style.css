@@ -42,8 +42,10 @@ Please don't modify this element
     padding: 15px;
     border: 5px solid #adecbf;
     border-radius: 15px; 
-    margin: 85px 0 0;
+    margin: 95px 0 100px;
     color: white;
+    width: 800px;
+    height: 350px;
 }
 
 .flex-item2{
