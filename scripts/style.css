@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(69, 69, 185);
 }
@@ -95,7 +98,7 @@ Please don't modify this element
     margin: 0 auto;
     width: 80%;
     float: right;
-    background-color: #d5d5d5;
+    
 }
 
 header a{
@@ -107,6 +110,8 @@ header{
     height: 60px;
     display: flex;
     margin: -10px -10px 0px -10px;
+    position: sticky;
+    top: 0;
     }
 
 header::after{
@@ -130,7 +135,7 @@ nav li{
     }
 
 #Tab a:hover{
-    background-color: #ffffff;
+    background-color: rgb(113, 113, 255);
     border-radius: 80% 80% 0% 0%;
 }
 
@@ -166,10 +171,11 @@ Sould be places before main content
     background-color: #c3bfff;
     padding: 80px 20px 20px 20px;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .content-spacing{
-    margin-top: 70px;
+    margin: 5% 0% 5% 0%;
 }
 
 /*
@@ -177,4 +183,34 @@ This class is used to help test box alignment and size
 */
 .test-box{
     background-color: red;
+}
+
+.lesson-selection{
+    float:left;
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    padding: 2% 5% 2% 5%;
+    flex-direction: column;
+    
+}
+
+.lesson-selection a{
+    padding: 4% 0% 4% 0%;
+}
+
+.body-content img{
+    position: relative;
+    width: 80%;
+    height: auto;
+    float: right;
+    margin: 3% 0% 3% 0%;
+}
+
+#sticky{
+    position: sticky;
+    top: 20px;
 }
