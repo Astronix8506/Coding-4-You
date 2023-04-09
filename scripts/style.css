@@ -221,7 +221,10 @@ This class is used to help test box alignment and size
     border-radius: 30px;
     background-color: white;
     Width: 35%;
-    height: 30%;
-    margin-top: -200px;
+    height: auto;
+    top: 10%;
+    font-size: 100px;
+    flex: auto;
+    align-items: center;
 }
 
