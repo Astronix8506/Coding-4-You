@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(69, 69, 185);
 }
@@ -30,12 +33,12 @@ Please don't modify this element
 /*
 Please don't modify this element
 */
-#main-flex-item{
+.main-flex-item{
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin:auto;
 }
 
 .flex-item{
@@ -58,7 +61,6 @@ Please don't modify this element
     margin: 0 auto;
     width: 80%;
     float: right;
-    background-color: #d5d5d5;
 }
 
 header a{
@@ -70,6 +72,9 @@ header{
     height: 60px;
     display: flex;
     margin: -10px -10px 0px -10px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
     }
 
 header::after{
@@ -93,7 +98,7 @@ nav li{
     }
 
 #Tab a:hover{
-    background-color: #ffffff;
+    background-color: rgb(113, 113, 255);
     border-radius: 80% 80% 0% 0%;
 }
 
@@ -113,24 +118,28 @@ Sould be places before main content
     position: absolute;
     border: 5px solid black;
     border-radius: 30px;
-    background-color: rgb(217, 255, 234);
-    float: left;
+    background-color: white;
     Width: 35%;
-    height: 8%;
+    height: auto;
     left: 20%;
+    margin-top: -40px;
+    
 } 
 
 .body-content{
     border: 5px solid black;
     border-radius: 20px;
     width: 50%;
-    height: 20%;
+    height: auto;
     background-color: #c3bfff;
-    margin-top: 40px;
+    padding: 80px 20px 20px 20px;
+    flex-direction: column;
+    margin-top: 10px;
+
 }
 
 .content-spacing{
-    margin-top: 50px;
+    margin: 5% 0% 5% 0%;
 }
 #diegoimg{
     height: 150px;
@@ -157,3 +166,52 @@ This class is used to help test box alignment and size
 .test-box{
     background-color: red;
 }
+
+.lesson-selection{
+
+    position: sticky;
+    top:18%;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 5%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 2% 2% 2% 2%;
+    flex-direction: column;
+    z-index: 2;
+    right: 90%;
+}
+
+.lesson-selection a{
+    padding: 4% 0% 4% 0%;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.body-content img{
+    position: relative;
+    width: 80%;
+    height: auto;
+    float: right;
+    margin: 3% 0% 3% 0%;
+}
+
+.unit{
+    position: absolute;
+    border: 10px solid black;
+    border-radius: 30px;
+    background-color: white;
+    Width: 35%;
+    height: auto;
+    top: 10%;
+    font-size: 100px;
+    flex: auto;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+    height: auto;
+    float: left;
+    position: absolute;
+} 
