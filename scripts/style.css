@@ -207,6 +207,7 @@ This class is used to help test box alignment and size
     font-size: 100px;
     flex: auto;
     align-items: center;
+    justify-content: center;
 }
 
 .logo{
