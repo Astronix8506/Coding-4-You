@@ -57,10 +57,10 @@ Please don't modify this element
     color: white;
 }
 
-.navbar{
+nav{
     margin: 0 auto;
-    width: 80%;
-    float: right;
+    width: 70%;
+    display: inline-block;
 }
 
 header a{
@@ -90,23 +90,37 @@ nav ul{
     }
     
 nav li{
-    display: inline-block;
     padding-top: 10px;
     flex-direction: row;
     margin-top: 10px;
     position: relative;
     }
 
-#Tab a:hover{
+#tab a:hover{
     background-color: rgb(113, 113, 255);
-    border-radius: 80% 80% 0% 0%;
+    border-radius: 30px 30px 0 0;
 }
 
-#Tab a{
-    width: 100%;
-    padding: 15px 55px 22px 55px;
+#tab li{
+    margin: 0 2% 0 5%;
+    display: inline-flex;
+    padding-left: -5%;
+    padding-right: 3%;
+    width: 10%;
+}
+
+#tab{
+    margin-left: 0;
+}
+
+#tab a{
+
+    display:inline-block;
+    padding: 20px 50% 6px 50%;
     text-decoration: none;
     transition: all ease-in-out 500ms;
+    font-size: 20px;
+    
 }
 
 /*
@@ -201,7 +215,7 @@ This class is used to help test box alignment and size
     border: 10px solid black;
     border-radius: 30px;
     background-color: white;
-    Width: 35%;
+    Width: 20% auto;
     height: auto;
     top: 10%;
     font-size: 100px;
@@ -212,10 +226,11 @@ This class is used to help test box alignment and size
 }
 
 .logo{
-    width: 15%;
+    width: 300px;
     height: auto;
     float: left;
     position: absolute;
+    left: -30px;
 } 
 #test-text
 {
@@ -224,7 +239,8 @@ This class is used to help test box alignment and size
 }
 
 .big-logo{
-    width: 100%;
+    width: 1000px;
     height: auto;
-    position: absolute;
+    position: relative;
+    margin-bottom: -5%;
 }
