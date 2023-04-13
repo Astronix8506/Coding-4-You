@@ -190,10 +190,10 @@ This class is used to help test box alignment and size
     width: 5%;
     height: auto;
     background-color: #ffffff;
-    padding: 2% 2% 2% 2%;
+    padding: 50px 50px 50px 50px;
     flex-direction: column;
     z-index: 2;
-    right: 90%;
+    right: 100%;
 }
 
 .lesson-selection a{
