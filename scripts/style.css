@@ -46,7 +46,7 @@ Please don't modify this element
     border: 5px solid #adecbf;
     border-radius: 15px; 
     margin: 77px 0 100px;
-    color: white;
+    color: black;
     width: 815px;
 }
 
@@ -54,7 +54,7 @@ Please don't modify this element
     padding: 25px;
     border: 5px solid #adecbf;
     border-radius: 15px;
-    color: white;
+    color: black;
 }
 
 nav{
@@ -133,11 +133,11 @@ Sould be places before main content
     border: 5px solid black;
     border-radius: 30px;
     background-color: white;
-    Width: 35%;
-    height: auto;
-    left: 20%;
-    margin-top: -40px;
+    Width: 40%;
+    height: 20%;
+    margin-top: -80px;
     font-size: 20px;
+    right: 33%;
 } 
 
 .body-content{
@@ -146,9 +146,10 @@ Sould be places before main content
     width: 50%;
     height: auto;
     background-color: #c3bfff;
-    padding: 80px 20px 20px 20px;
+    padding: 10% 20px 20px 20px;
     flex-direction: column;
     margin-top: 10px;
+    margin-bottom: 50px;
     font-size: 20px;
 }
 
@@ -193,7 +194,7 @@ This class is used to help test box alignment and size
     padding: 50px 50px 50px 50px;
     flex-direction: column;
     z-index: 2;
-    right: 100%;
+    right: 130%;
 }
 
 .lesson-selection a{
@@ -244,3 +245,4 @@ This class is used to help test box alignment and size
     position: relative;
     margin-bottom: -5%;
 }
+
