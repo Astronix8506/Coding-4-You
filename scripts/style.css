@@ -57,71 +57,37 @@ Please don't modify this element
     color: black;
 }
 
-nav{
-    margin: 0 auto;
-    width: 70%;
-    display: inline-block;
-}
-
-header a{
-    color: black;
-    }
-
-header{
-    background-color: #8a93f8;
-    height: 60px;
+.navbar{
+    background-color: #5e68f7;
+    color:black;
     display: flex;
-    margin: -10px -10px 0px -10px;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    }
-
-header::after{
-    content: '';
-    display: table;
-    clear: both;
-    }
-
-nav ul{
-    margin: 0 auto;
-    padding-bottom: 2px;
-    list-style: none;
-    }
-    
-nav li{
-    padding-top: 10px;
-    flex-direction: row;
-    margin-top: 10px;
-    position: relative;
-    }
-
-#tab a:hover{
-    background-color: rgb(113, 113, 255);
-    border-radius: 30px 30px 0 0;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#tab li{
-    margin: 0 2% 0 5%;
-    display: inline-flex;
-    padding-left: -5%;
-    padding-right: 3%;
-    width: 10%;
-}
-
-#tab{
-    margin-left: 0;
-}
-
-#tab a{
-
-    display:inline-block;
-    padding: 20px 50% 6px 50%;
-    text-decoration: none;
-    transition: all ease-in-out 500ms;
+.nav-list{
+    list-style-type: none;
     font-size: 20px;
-    
 }
+
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.navbar a{
+    color:black;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    border-radius: 20px 20px 0 0;
+    background-color: red;
+    transition: all ease-in-out 500ms;
+}
+
+
+
 
 /*
 The Id Contnent_header will set whatever the Id associated with
@@ -133,8 +99,8 @@ Sould be places before main content
     border: 5px solid black;
     border-radius: 30px;
     background-color: white;
-    Width: 40%;
-    height: 20%;
+    Width: 40vw;
+    height: 130px;
     margin-top: -80px;
     font-size: 20px;
     right: 33%;
@@ -143,10 +109,10 @@ Sould be places before main content
 .body-content{
     border: 5px solid black;
     border-radius: 20px;
-    width: 50%;
+    width: 50vw;
     height: auto;
     background-color: #c3bfff;
-    padding: 10% 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -185,7 +151,7 @@ This class is used to help test box alignment and size
 .lesson-selection{
 
     position: sticky;
-    top:18%;
+    top:200px;
     border: 5px solid black;
     border-radius: 20px;
     width: 5%;
@@ -218,7 +184,7 @@ This class is used to help test box alignment and size
     background-color: white;
     Width: 20% auto;
     height: auto;
-    top: 10%;
+    top: 200px;
     font-size: 100px;
     flex: auto;
     align-items: center;
@@ -245,4 +211,6 @@ This class is used to help test box alignment and size
     position: relative;
     margin-bottom: -5%;
 }
-
+p{
+   margin-top: 50px; 
+}
